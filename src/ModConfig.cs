@@ -29,12 +29,12 @@ namespace BetterScatterAngle
         // ====== combined ======
         // default, min, max value respectively
         public static int[] Scatter_Range_Sample_Array = new int[] { 50, 20, 100 };
-        public static float[] Scatter_Penalty_Perc_Array = new float[] { 0f, 0f, 200f };
+        public static int[] Scatter_Penalty_Perc_Array = new int[] { 0, 0, 300 };
         public static float[] Scatter_Penalty_Flat_Array = new float[] { 0f, 0f, 100f };
         public static float[] Scatter_Gaussian_StdDev_Array = new float[] { 2f, 1f, 30f };
 
         public int Scatter_Range_Sample { get; set; } = Scatter_Range_Sample_Array[0];
-        public float Scatter_Penalty_Perc { get; set; } = (float)Scatter_Penalty_Perc_Array[0];
+        public int Scatter_Penalty_Perc_int { get; set; } = Scatter_Penalty_Perc_Array[0];
         public float Scatter_Penalty_Flat { get; set; } = (float)Scatter_Penalty_Flat_Array[0];
 
         public bool Scatter_Gaussian_Calculation { get; set; } = false;
