@@ -12,5 +12,9 @@ This mod also offer Gaussian projectile distribution option... which just means 
 
 As both of those options make all guns REALLY ACCURATE. I have added option to nerf scatter to compensate. Also controllable on MCM.
 
+v1.01:
+
+For Scatter penalty. 1.00 was actually 100%. Changed scatter % to integer. And scatter penalty's 1 = 1% now.
+
 The 2nd picture uses "Scatter Indicator" mod for testing.
 https://steamcommunity.com/sharedfiles/filedetails/?id=3785407853
