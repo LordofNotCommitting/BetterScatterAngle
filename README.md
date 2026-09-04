@@ -1,6 +1,8 @@
 The patch 1.02 made scatter "Visually correct" as per ingame mechanics.
 but it also look kind of terrible as all bullets get railed into exact dead center of the tile. Unfortunate, but that is how game functions. But let's see if I can fix that.
 
+**Need to restart the game after MCM config setup for this mod to take effect**
+
 This mod enforces more accurate scatter that is less bound to ingame tile system(now it aims at very far arbitrary location) while keeping the visual synced to bullet.
 
 **This means this mod changes ingame mechanics.** In vanilla Guns just magnetized bullet to close wall. Now it will not. 
