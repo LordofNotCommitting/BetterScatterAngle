@@ -14,11 +14,15 @@ This mod also offer Gaussian projectile distribution option... which just means 
 
 As both of those options make all guns REALLY ACCURATE. I have added option to nerf scatter to compensate. Also controllable on MCM.
 
-For v1.1. Now this mod support new target hit system based on trace pathing instead of cellposition pathing which impacted high speed projectile (or if you used my mod, "Optimize Projectile Processing" which sped them up). Now enemy is something like a circle within square 1x1 cell instead of entire cell (configurable on MCM) and will be hit if it is in the path of a projectile instead of phasing through.
+For v1.1. Now this mod support new target hit system based on trace pathing instead of cellposition pathing which impacted high speed projectile (or if you used my mod, "Optimize Projectile Processing" which sped them up) by making diagonal projectile phase through some tiles. Now enemy is something like a circle within square 1x1 cell instead of entire cell (configurable on MCM) and will be hit if it is in the path of a projectile instead of phasing through.
+
+Oh, and because now everyone has a hitbox. Diagonal projectiles are slightly harder to hit. If you want vanilla behavior then change hitbox size to 0.71(entire cell which is vanilla intended) or disable this feature.
 
 Changelog:
 
-v1.1. Now this mod support new target hit system based on trace pathing instead of cellposition pathing which impacted high speed projectile.
+v1.1:
+
+Now this mod support new target hit system based on trace pathing instead of cellposition pathing which impacted high speed projectile by making diagonal projectile phase through some tiles.
 
 v1.01:
 
