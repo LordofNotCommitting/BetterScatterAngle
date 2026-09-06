@@ -14,6 +14,12 @@ This mod also offer Gaussian projectile distribution option... which just means 
 
 As both of those options make all guns REALLY ACCURATE. I have added option to nerf scatter to compensate. Also controllable on MCM.
 
+For v1.1. Now this mod support new target hit system based on trace pathing instead of cellposition pathing which impacted high speed projectile (or if you used my mod, "Optimize Projectile Processing" which sped them up). Now enemy is something like a circle within square 1x1 cell instead of entire cell (configurable on MCM) and will be hit if it is in the path of a projectile instead of phasing through.
+
+Changelog:
+
+v1.1. Now this mod support new target hit system based on trace pathing instead of cellposition pathing which impacted high speed projectile.
+
 v1.01:
 
 For Scatter penalty. 1.00 was actually 100%. Changed scatter % to integer. And scatter penalty's 1 = 1% now.
