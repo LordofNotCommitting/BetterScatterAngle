@@ -32,6 +32,7 @@ namespace BetterScatterAngle
         public static int[] Scatter_Penalty_Perc_Array = new int[] { 0, 0, 300 };
         public static float[] Scatter_Penalty_Flat_Array = new float[] { 0f, 0f, 100f };
         public static float[] Scatter_Gaussian_StdDev_Array = new float[] { 2f, 1f, 30f };
+        public static float[] Hitbox_Base_Target_Size_Array = new float[] { 0.5f, 0.35f, 0.71f };
 
         public int Scatter_Range_Sample { get; set; } = Scatter_Range_Sample_Array[0];
         public int Scatter_Penalty_Perc_int { get; set; } = Scatter_Penalty_Perc_Array[0];
@@ -40,6 +41,10 @@ namespace BetterScatterAngle
         public bool Scatter_Gaussian_Calculation { get; set; } = false;
 
         public float Scatter_Gaussian_StdDev { get; set; } = (float)Scatter_Gaussian_StdDev_Array[0];
+
+
+        public bool Hitbox_Base_Targetting { get; set; } = false;
+        public float Hitbox_Base_Target_Size { get; set; } = (float)Hitbox_Base_Target_Size_Array[0];
 
         public void Save(string configPath)
         {
