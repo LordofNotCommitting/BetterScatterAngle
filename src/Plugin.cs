@@ -39,7 +39,12 @@ namespace BetterScatterAngle
             McmConfiguration = new McmConfiguration(Config);
             McmConfiguration.TryConfigure();
 
+            ProjectileView_ScatterPenalty_Patch.Scatter_Penalty_Perc_float = ((float)Plugin.Config.Scatter_Penalty_Perc_int) / 100f;
+
             new Harmony("LoC_" + ConfigDirectories.ModAssemblyName).PatchAll();
+
+
+
         }
 
 

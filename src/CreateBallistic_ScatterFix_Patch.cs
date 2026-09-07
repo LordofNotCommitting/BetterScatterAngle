@@ -31,8 +31,6 @@ namespace BetterScatterAngle
         {
             if (scatterAngle <= 0f) return;
 
-            //apply scatter penalty
-            scatterAngle = (scatterAngle * (1f + (((float)Plugin.Config.Scatter_Penalty_Perc_int)/100f))) + Plugin.Config.Scatter_Penalty_Flat;
 
             // 1. Calculate continuous direction vector
             Vector2 sourceCenter = new Vector2(source.X + 0.5f, source.Y + 0.5f);
