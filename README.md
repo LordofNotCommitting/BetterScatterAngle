@@ -20,6 +20,9 @@ Oh, and because now everyone has a hitbox. Diagonal projectiles are slightly har
 
 Changelog:
 
+v1.11:
+Moved scatter penalty somewhere else so it works with scatter display mod.
+
 v1.1:
 
 Now this mod support new target hit system based on trace pathing instead of cellposition pathing which impacted high speed projectile by making diagonal projectile phase through some tiles.
